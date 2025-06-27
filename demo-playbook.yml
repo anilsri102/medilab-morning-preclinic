@@ -1,5 +1,5 @@
 - name: demo-playbook
-  hosts: all
+  hosts: qa
   #this needs to configure when we dont want to execute the commands
   #as root user on the remote clients.
   become: 'yes'
